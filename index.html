@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificates</title>
+</head>
+
+<style>
+    body {
+        background-color: #222;
+        
+    }
+
+    .container {
+        display: flex;
+        max-height:100vh; 
+        position: absolute;
+        align-items: center;
+        padding: 2rem;
+        box-shadow: rgba(255, 255, 255, 0.86) 0px 22px 70px 4px;
+        transform: translate(30%,20%);
+        border-radius: 0.25rem;
+    }
+
+    .slider-wrapper {
+        position: relative;
+        max-width: 48rem;
+        margin: 0 auto;
+    }
+
+    .slider {
+        display: flex;
+        aspect-ratio: 16/9;
+        overflow-x: hidden;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.15);
+        border-radius: 0.25rem;
+    }
+
+    .slider img {
+        flex: 0 0 100%;
+        scroll-snap-align: start;
+        object-fit: 100%;
+    }
+
+    .slider-nav {
+        display: flex;
+        column-gap: 1rem;
+        position: absolute;
+        bottom: 1.25rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+
+    .slider-nav a {
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background-color: #000;
+        opacity: 0.75;
+        transition: opacity ease 250ms;
+    }
+
+    .slider-nav a:hover {
+        opacity: 1;
+    }
+</style>
+
+<body>
+
+    <section class="container">
+        <div class="slider-wrapper">
+
+            <div class="slider">
+
+                <img id="slide-1" src="images/1.jpeg" alt="" />
+                <img id="slide-2" src="images/2.jpeg" alt="" />
+                <img id="slide-3" src="images/3.jpeg" alt="" />
+                <img id="slide-4" src="images/4.jpeg" alt="" />
+                <img id="slide-5" src="images/5.jpeg" alt="" />
+                <img id="slide-6" src="images/6.jpeg" alt="" />
+                <img id="slide-7" src="images/7.jpeg" alt="" />
+                <img id="slide-8" src="images/8.jpeg" alt="" />
+                <img id="slide-9" src="images/9.jpeg" alt="" />
+                <img id="slide-10" src="images/10.jpeg" alt="" />
+                <img id="slide-11" src="images/11.jpeg" alt="" />
+                <img id="slide-12" src="images/12.jpeg" alt="" />
+                <img id="slide-13" src="images/13.jpeg" alt="" />
+                <img id="slide-14" src="images/14.jpeg" alt="" />
+
+            </div>
+
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+                <a href="#slide-5"></a>
+                <a href="#slide-6"></a>
+                <a href="#slide-7"></a>
+                <a href="#slide-8"></a>
+                <a href="#slide-9"></a>
+                <a href="#slide-10"></a>
+                <a href="#slide-11"></a>
+                <a href="#slide-12"></a>
+                <a href="#slide-13"></a>
+                <a href="#slide-14"></a>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
