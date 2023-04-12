@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 body {
   background: #3494E6; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
   background: --webkit-gradient(
@@ -12,7 +14,7 @@ body {
     #3494E6
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
-  color: #fff;
+  color: #1d1d1d;
 }
 
 a {
@@ -21,8 +23,9 @@ a {
 }
 
 h1 {
-  font-family: 'Courgette', cursive;
-  color: #0D5212;
+  font-family: 'Alegreya', serif;
+  color:#1d1d1d;
+  font-size: 3em;
 }
 
 .wrapper {
